@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
 text-align: center;
 color: #D1C1BB;
 text-decoration: none;
+padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -25,7 +28,14 @@ main section{
 }
 
 body {
-    background-color: #D1C1BB; 
+    background-color: #D1C1BB;
+    font-family: "Patua One", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color: #140B5C;
@@ -38,27 +48,39 @@ nav a:hover {
 background-color: #D1C1BB;
 color: black;
 text-decoration: none;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
 }
 .home-title{
 color: black;
+font-family: Barlow, Helvetica, sans-serif;
+font-size: 2em;
+margin-top: 10px;
 }
+
 h4{
 color: black;
 }
 
 .msg h2{
-    color: #140B5C;
+color: #140B5C;
+font-family: Barlow, Helvetica, sans-serif;
 }
 .msg p{
     color: #140B5C;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
-color:#140B5C
-text-decoration: none;
+color:#140B5C;
+text-decoration: none
 }
 footer a:hover{
 color: #D36836;
+padding: 25px 50px;
 }
 .book:hover, .join:hover{
 background-color: #D1C1BB;
@@ -67,10 +89,13 @@ color: black;
 
 .msg{
 background-color: #FBF4F4;
+line-height: 1.5em;
+padding: 35px;
 }
 footer{
 background-color: #FBF4F4;
 color: #140B5C;
+margin-top: 200px;
 }
 .logo, .icon{
   width: 80px;
@@ -84,4 +109,22 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}  
+.icon  {
+    padding-top: 10px;
+} 
+footer .social img{
+    padding-top: 15px;
+}   
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #140B5C;
+}
+main section img {
+    box-sizing: border-box;
 }
